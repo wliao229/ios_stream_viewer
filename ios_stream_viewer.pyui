@@ -1,0 +1,191 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : true,
+        "frame" : "{{50, 30}, {220, 260}}",
+        "class" : "View",
+        "nodes" : [
+          {
+            "selected" : false,
+            "frame" : "{{0, 0}, {110, 31}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "font_name" : "<System>",
+              "frame" : "{{-25, 34}, {150, 32}}",
+              "uuid" : "1FB91B5D-32C5-4F78-9E1C-288DC0B04908",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "e4f7",
+              "name" : "label1",
+              "font_size" : 18
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 50}, {110, 31}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "font_name" : "<System>",
+              "frame" : "{{-25, 34}, {150, 32}}",
+              "uuid" : "847D74EF-4510-4D01-9003-F8A0D6598542",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "cec8",
+              "name" : "label2",
+              "font_size" : 18
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 100}, {110, 31}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "font_name" : "<System>",
+              "frame" : "{{-25, 34}, {150, 32}}",
+              "uuid" : "F56678AB-7314-4BB7-86F2-98FE06B3D142",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "6b37",
+              "name" : "label3",
+              "font_size" : 18
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 150}, {110, 31}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "font_name" : "<System>",
+              "frame" : "{{-25, 34}, {150, 32}}",
+              "uuid" : "3EEA7AD7-7F70-40E0-BE51-9EB7EBCF5B5A",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "3fa5",
+              "name" : "label4",
+              "font_size" : 18
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{158, 0}, {51, 31}}",
+            "class" : "Switch",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "action" : "switched",
+              "frame" : "{{104, 79}, {51, 31}}",
+              "custom_attributes" : "{'device_id': 'e4f7'}",
+              "class" : "Switch",
+              "value" : true,
+              "uuid" : "0BAFD492-CBA4-4395-8604-38DAEC59E6C3",
+              "name" : "switch1"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{158, 50}, {51, 31}}",
+            "class" : "Switch",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "action" : "switched",
+              "frame" : "{{104, 79}, {51, 31}}",
+              "custom_attributes" : "{'device_id': 'cec8'}",
+              "class" : "Switch",
+              "value" : true,
+              "uuid" : "039DB053-68BE-4374-A942-FB7A61609A9B",
+              "name" : "switch2"
+            }
+          },
+          {
+            "selected" : true,
+            "frame" : "{{158, 100}, {51, 31}}",
+            "class" : "Switch",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "action" : "switched",
+              "frame" : "{{104, 79}, {51, 31}}",
+              "custom_attributes" : "{'device_id': '6b37'}",
+              "class" : "Switch",
+              "value" : false,
+              "uuid" : "4F21B72A-FBD6-490B-BF15-A2B12293A696",
+              "name" : "switch3"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{158, 150}, {51, 31}}",
+            "class" : "Switch",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "action" : "switched",
+              "frame" : "{{104, 79}, {51, 31}}",
+              "custom_attributes" : "{'device_id': '3fa5'}",
+              "class" : "Switch",
+              "value" : false,
+              "uuid" : "AE4A7F1A-3F8B-4BF8-BB17-8F6CEE2E8038",
+              "name" : "switch4"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{6, 223}, {205, 31}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "action" : "start_viewer",
+              "name" : "button1",
+              "frame" : "{{66, 131}, {80, 32}}",
+              "title" : "Start",
+              "uuid" : "F455035F-32E1-4D3D-B1F7-2409AA3374B2",
+              "font_bold" : true,
+              "class" : "Button",
+              "font_size" : 15,
+              "image_name" : "iob:arrow_right_b_32"
+            }
+          }
+        ],
+        "attributes" : {
+          "name" : "device_list_view",
+          "frame" : "{{57, 108}, {100, 100}}",
+          "uuid" : "26159FC5-04D2-4305-87CE-38D421793C29",
+          "custom_class" : "",
+          "class" : "View",
+          "flex" : "LRTB"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "Device List",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
+    }
+  }
+]
